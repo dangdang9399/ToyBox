@@ -10,4 +10,5 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "toybox")
 @Data
 public class ToyBoxProperties {
+    private String baseUrl;
 }
